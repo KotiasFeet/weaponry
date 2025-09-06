@@ -4,4 +4,4 @@ kill @e[type=item]
 tp @a 0 100 0
 
 
-execute as @a run kill KotiasFeet
+execute as @a run kill msdf
