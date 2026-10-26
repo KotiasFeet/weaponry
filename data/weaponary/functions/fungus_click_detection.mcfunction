@@ -14,3 +14,6 @@ execute as @a if score @s fungusRightClick matches 1.. if entity @s[team=Hollow,
 
 execute as @a if score @s fungusRightClick matches 1.. run scoreboard players set @s fungusRightClick 0
 
+# i no no wanna create a new tick function for tutorial so it goes in here
+execute as @a[gamemode=adventure] at @s if block ~ ~-1 ~ minecraft:red_concrete run execute at @e[tag=tutorial_checkpoint,sort=nearest,limit=1] run tp @s ~ ~ ~
+execute at @e[tag=tutorial_checkpoint] as @a[dx=5,dy=5,dz=5] run effect give @s minecraft:regeneration 5 1 true

@@ -1,6 +1,7 @@
 # execute as @a[tag=on_plane] if entity @s[scores={isSneaking=1..}] run tag @s add with_parachute
 
-execute as @a[tag=on_plane] on vehicle if entity @s[tag=plane] run tag @a[tag=on_plane] add with_parachute
+# execute as @a[tag=on_plane] on vehicle if entity @s[tag=plane] run tag @a[tag=on_plane] add with_parachute
+execute as @a[tag=on_plane] run tag @s add with_parachute
 execute as @e[tag=plane] on passengers run tag @s remove with_parachute
 
 

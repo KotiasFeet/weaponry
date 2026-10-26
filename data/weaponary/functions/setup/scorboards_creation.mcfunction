@@ -32,7 +32,7 @@ scoreboard players set divider damageTakenDummy 100
 # scoreboard objectives setdisplay sidebar
 # scoreboard objectives setdisplay belowName
 # scoreboard objectives setdisplay list
-tellraw @a[tag=debbuging] {"text": "scoreboards setuped", "color": "aqua"}
+# tellraw @a[tag=debbuging] {"text": "scoreboards setuped", "color": "aqua"}
 
 
 
@@ -53,7 +53,9 @@ execute unless entity @e[tag=plane_start] run scoreboard players set start plane
 execute unless entity @e[tag=plane_end] run scoreboard players set end planeHighestScore -1
 scoreboard players set 1 planeHighestScore 1
 
-
+# Gamestart countdown
+scoreboard objectives add startCountdown dummy
+scoreboard players set startScore startCountdown 0
 
 ###> CLASSES
 ## Hollow
@@ -62,11 +64,14 @@ scoreboard objectives add fadeDuration dummy
 scoreboard objectives add fadeParticle dummy
 
 
+# tutorial
+scoreboard objectives add tutorialEnd dummy
 
 
 
 
 
+tellraw @a[tag=debbuging] {"text": "scoreboards setuped", "color": "aqua"}
 
 
 

@@ -4,7 +4,7 @@
       {
         "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 5
             },
         "entries": [
           {
@@ -35,7 +35,7 @@
           {
             "type": "minecraft:loot_table",
             "name": "weaponary:chests/chests_on_map/pieces_of_chest/healthpacks",
-            "weight": 48
+            "weight": 172
           },
           {
             "type": "minecraft:loot_table",

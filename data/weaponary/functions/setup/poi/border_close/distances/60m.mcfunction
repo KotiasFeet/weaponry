@@ -1,1 +1,2 @@
-worldborder set 60 75
+# 5 blocks/second
+worldborder set 60 208

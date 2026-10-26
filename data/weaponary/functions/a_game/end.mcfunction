@@ -3,5 +3,8 @@ kill @e[type=item]
 
 tp @a 0 100 0
 
+worldborder set 1000 
 
 execute as @a run kill msdf
+
+
