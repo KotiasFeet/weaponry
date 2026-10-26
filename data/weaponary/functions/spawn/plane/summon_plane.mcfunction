@@ -4,7 +4,7 @@ function weaponary:rng/rng
 scoreboard players operation root planeRoot = out rng 
 
 execute as @e[tag=plane_start, sort=random] run scoreboard players operation root planeRoot = @s planeStartingPos
-execute as @e[tag=plane_start] if score @s planeStartingPos = root planeRoot run execute at @s run summon armor_stand ~ ~ ~ {Tags:["plane"], NoGravity:true}
+execute as @e[tag=plane_start] if score @s planeStartingPos = root planeRoot run execute at @s run summon armor_stand ~ ~ ~ {Tags:["plane"], NoGravity:true,Marker:true,Invisible:true}
 
 
 
