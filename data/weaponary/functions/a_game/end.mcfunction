@@ -10,6 +10,8 @@ execute as @e[tag=chest_placed] run tag @s remove chest_placed
 
 worldborder set 1000 
 schedule clear weaponary:setup/poi/border_close/distances/60m
+schedule clear weaponary:setup/poi/border_close/distances/150m
+schedule clear weaponary:setup/poi/border_close/distances/250m
 
 execute as @a run kill msdf
 

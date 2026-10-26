@@ -71,7 +71,8 @@ scoreboard objectives add tutorialEnd dummy
 scoreboard objectives add startLootSetup dummy
 scoreboard players set start startLootSetup 0
 
-
+# death handling during active rounds
+scoreboard objectives add deaths minecraft.custom:minecraft.deaths
 
 
 tellraw @a[tag=debbuging] {"text": "scoreboards setuped", "color": "aqua"}

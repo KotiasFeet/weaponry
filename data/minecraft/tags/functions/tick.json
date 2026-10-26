@@ -15,6 +15,7 @@
     "weaponary:spawn/plane/tick",
     "weaponary:setup/tick/is_sneaking",
     "weaponary:setup/tick/easteregg",
+    "weaponary:setup/tick/death_to_spectator",
     "weaponary:slime_spawner",
 		"weaponary:setup/loot_chests/check_for_players"
  ]
