@@ -67,6 +67,9 @@ scoreboard objectives add fadeParticle dummy
 # tutorial
 scoreboard objectives add tutorialEnd dummy
 
+# loot setup start
+scoreboard objectives add startLootSetup dummy
+scoreboard players set start startLootSetup 0
 
 
 

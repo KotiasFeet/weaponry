@@ -5,6 +5,7 @@
     "weaponary:setup/rng_setup",
     "weaponary:healthpacks/bossbar_creation/load",
     "weaponary:healthpacks/load",
-    "weaponary:setup/gamerules"
+    "weaponary:setup/gamerules",
+    "weaponary:setup/forceload"
 ]
 }
