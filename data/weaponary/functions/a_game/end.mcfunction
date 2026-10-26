@@ -9,6 +9,7 @@ tp @a 154 49 -135 90 0
 execute as @e[tag=chest_placed] run tag @s remove chest_placed
 
 worldborder set 1000 
+schedule clear weaponary:setup/poi/border_close/distances/60m
 
 execute as @a run kill msdf
 
