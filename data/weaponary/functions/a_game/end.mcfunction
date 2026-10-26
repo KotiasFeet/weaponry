@@ -1,7 +1,7 @@
 function weaponary:dropped_items_to_de/kill_all_de_items
 kill @e[type=item]
 
-tp @a 0 100 0
+tp @a 154 49 -135 90 0
 
 worldborder set 1000 
 
